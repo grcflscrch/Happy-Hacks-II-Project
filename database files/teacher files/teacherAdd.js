@@ -1,16 +1,16 @@
-document.getElementById("assign").value;
-document.getElementById("descript").value;
+document.getElementById("name").value;
+document.getElementById("email").value;
 
 const fs = require('fs')
 
 fs.readFile('./loginfo.json', 'utf8', (err, data) => {
     if (err){
-        console.log('Database error - Assignments Unknown')
+        console.log('Database error - Teachers Unknown')
     } else {
         const loginfo = JSON.parse(data)
 
     data.assignments.push ({
-        assign: descript
+        name: email
     })
 
     fs.writeFile('./loginfo.json', JSON.stringify(loginfo, null, 8), err => {

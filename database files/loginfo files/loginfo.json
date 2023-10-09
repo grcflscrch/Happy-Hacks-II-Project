@@ -3,5 +3,8 @@
     "assignments": [{
         "Unit 94387 - 2": "Generic math thing",
         "Unit 2 - 5": "Coming up with examples"
+    }],
+    "teachers": [{
+        "Ms. Teachername": "teachername@example.com"
     }]
 }
